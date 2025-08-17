@@ -11,11 +11,15 @@ This design highlights hierarchical modeling and carry propagation in adders
 The 4-bit RCA adds two 4-bit binary numbers and an optional carry-in.
 Each stage computes a sum bit and generates a carry for the next stage.
 The final outputs are a 4-bit Sum and a single-bit Carry-out.
-✅ Example Truth Table (Partial)
-A (4-bit)	B (4-bit)	Cin	Sum (4-bit)	Cout
-0000	0000	0	0000	0
-0101	0011	0	1000	0
-1111	0001	0	0000  1
+
+
+🔍 Example Simulation Outputs
+
+Input: A=0001, B=0001, Cin=0 → Output: Sum=0010, Cout=0
+
+Input: A=0010, B=0001, Cin=0 → Output: Sum=0011, Cout=0
+
+Input: A=1000, B=0000, Cin=0 → Output: Sum=1000, Cout=0
 
 🖼️ Simulation Results
 
