@@ -1,7 +1,7 @@
+
+//addition and subtraction of 4 bit data using ripple carry adders with enable
+
 `timescale 1ns / 1ps
-
-
-
 // full adder
 module FA(input a,
 input b,
@@ -70,3 +70,4 @@ module Binary_adder_subtractor(
     
     RCA m2(.s(s),.cout(cout),.a(r),.b(g),.cin(t2));   
 endmodule
+
