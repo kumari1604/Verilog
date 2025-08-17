@@ -21,3 +21,21 @@ Efficient reuse of the same RCA for both operations.
 Controlled inversion of b enables subtraction without extra logic.
 
 Supports signed results in subtraction.
+
+⚡Verifcation using testbench
+
+Addition Mode (en=0)
+
+a = 1000 (8), b = 0001 (1) → Output s = 1001 (9)
+
+a = 0010 (2), b = 0110 (6) → Output s = 1000 (8)
+
+Subtraction Mode (en=1)
+
+a = 1100 (12), b = 1010 (10) → Output s = 0010 (2)
+
+a = 1000 (8), b = 0001 (1) → Output s = 0111 (7)
+
+a = 1000 (8), b = 1001 (9) → Output s = 1111 (-1) (2’s complement)
+
+a = 1010 (10), b = 1100 (12) → Output s = 1110 (-2) (2’s complement)
