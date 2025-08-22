@@ -24,9 +24,13 @@ Thus, the outputs correctly represent the relationship between a and b.
 
 ✅ Simulation Results
 a	b	e (equal)	g (greater)	l (less)	Description
+
 1	0	 0	       1	            0	     a > b
+
 0	0	 1         0              0      a = b
+
 1	1	 1	       0	            0	     a = b
+
 0	1	 0	       0	            1	     a < b
 
 🔧 Tools Used
