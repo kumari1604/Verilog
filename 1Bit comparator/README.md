@@ -1,4 +1,5 @@
 1-Bit Comparator (Verilog)    --> GATE LEVEL MODELING
+
 📌 Overview
 
 This project implements a 1-bit digital comparator using Verilog.
@@ -23,7 +24,8 @@ Thus, the outputs correctly represent the relationship between a and b.
 
 
 ✅ Simulation Results
-a	b	e (equal)	g (greater)	l (less)	Description
+
+a	b	  e       	  g 	      l          	Description
 
 1	0	 0	       1	            0	     a > b
 
